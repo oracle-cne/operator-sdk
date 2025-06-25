@@ -29,12 +29,21 @@ follow the Kubernetes Operator pattern
 
 
 %build
+{{{- if semverCompare ">0.17.1" $version }}}
+make build
+{{{- else }}}
 make build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu
-
+{{{- end }}}
 
 %install
 install -m 755 -d %{buildroot}/usr/bin
+{{{- if semverCompare ">0.17.1" $version }}}
+install -m 755 build/operator-sdk %{buildroot}/usr/bin/operator-sdk
+install -m 755 build/ansible-operator %{buildroot}/usr/bin/ansible-operator
+install -m 755 build/helm-operator %{buildroot}/usr/bin/helm-operator
+{{{- else }}}
 install -m 755 build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu %{buildroot}/usr/bin/operator-sdk
+{{{- end }}}
 
 %files
 %license LICENSE THIRD_PARTY_LICENSES.txt
@@ -44,7 +53,6 @@ install -m 755 build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu %{buildr
 /usr/bin/ansible-operator
 
 %changelog
-* Fri Mar 12 2021 Daniel Krasinski <daniel.krasinski@oracle.com> 1.4.2-1
-* {{{.changelog-timestamp}}} - {{{$version}}}-1
+* {{{.changelog_timestamp}}} - {{{$version}}}-1
 - Initial Release
 
