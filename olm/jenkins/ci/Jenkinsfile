@@ -2,7 +2,7 @@
 import com.oracle.olcne.pipeline.BranchPattern
 
 olcnePipeline(
-  branchPattern: new BranchPattern(master: 'oracle/release/.*', feature: 'feature/.*'),
+  branchPattern: new BranchPattern(master: 'oracle/release/.*', feature: '(?!^release/.*$)(^.*$)'),
   customStages: [container: [enabled: false]],
   yumOL8Repos: ['ol8_appstream', 'ol8_codeready_builder'],
   platforms: ['ol8'],
