@@ -39,7 +39,9 @@ make build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu
 install -m 755 -d %{buildroot}/usr/bin
 {{{- if semverCompare ">0.17.1" $version }}}
 install -m 755 build/operator-sdk %{buildroot}/usr/bin/operator-sdk
+{{{- if semverCompare "<1.32.0" $version }}}
 install -m 755 build/ansible-operator %{buildroot}/usr/bin/ansible-operator
+{{{- end }}}
 install -m 755 build/helm-operator %{buildroot}/usr/bin/helm-operator
 {{{- else }}}
 install -m 755 build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu %{buildroot}/usr/bin/operator-sdk
@@ -50,7 +52,9 @@ install -m 755 build/operator-sdk-v0.17.1-2-gcd4373b2-%{arch}-linux-gnu %{buildr
 
 /usr/bin/operator-sdk
 /usr/bin/helm-operator
+{{{- if semverCompare "<1.32.0" $version }}}
 /usr/bin/ansible-operator
+{{{- end }}}
 
 %changelog
 * {{{.changelog_timestamp}}} - {{{$version}}}-1
