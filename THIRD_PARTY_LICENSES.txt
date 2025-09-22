@@ -231,7 +231,8 @@ github.com/containerd/continuity
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2541,7 +2542,44 @@ github.com/operator-framework/operator-registry
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2019 Chun Lin Yang clyang@cn.ibm.com
+Copyright 2019 Eric Stroczynski ericstroczynski@gmail.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2020 Alvaro Aleman alvaroaleman@users.noreply.github.com
+Copyright 2020 Anik Bhattacharjee anikbhattacharya93@gmail.com
+Copyright 2020 Ben Luddy bluddy@redhat.com
+Copyright 2020 Daniel Sover dsover@redhat.com
+Copyright 2020 Eric Stroczynski ericstroczynski@gmail.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Harish hgovinda@redhat.com
+Copyright 2020 Joe Lanford joe.lanford@gmail.com
+Copyright 2020 Lance lgallett@redhat.com
+Copyright 2020 LouisPlisso louis.plissonneau@mongodb.com
+Copyright 2020 Nick Hale njohnhale@gmail.com
+Copyright 2020 Simran Dhaliwal sdhaliwa@redhat.com
+Copyright 2020 Vu Dinh vdinh@redhat.com
+Copyright 2020 awgreene agreene@redhat.com
+Copyright 2020 bipuladh badhikar@redhat.com
+Copyright 2020 bowenislandsong bsong@redhat.com
+Copyright 2020 kevinrizza krizza@redhat.com
+Copyright 2020 varshaprasad96 varshaprasad96@gmail.com
+Copyright 2021 Daniel Sover dsover@redhat.com
+Copyright 2021 Eric Stroczynski ericstroczynski@gmail.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Haseeb Tariq hasbro17@gmail.com
+Copyright 2021 Jian Zhang jiazha@redhat.com
+Copyright 2021 Joe Lanford joe.lanford@gmail.com
+Copyright 2021 John Hunkins jhunkins@us.ibm.com
+Copyright 2021 Lance lgallett@redhat.com
+Copyright 2021 Per G. da Silva perdasilva@redhat.com
+Copyright 2021 varshaprasad96 varshaprasad96@gmail.com
+Copyright 2022 Camila Macedo cmacedo@redhat.com
+Copyright 2022 GitHub noreply@github.com
+Copyright 2022 Per Goncalves da Silva perdasilva@redhat.com
+Copyright 2022 perdasilva perdasilva@redhat.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 Per Goncalves da Silva perdasilva@redhat.com
+Copyright 2023 Rashmi Gottipati chowdary.grashmi@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3309,7 +3347,14 @@ go.opentelemetry.io/otel
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (c) 2016-2017 Uber Technologies, Inc.
+Copyright (c) 2017 Uber Technologies, Inc.
+Copyright (c) 2021 The Jaeger Authors.
+Copyright 2009 The Go Authors.
+Copyright 2014 gRPC authors.
+Copyright 2017, OpenCensus Authors
+Copyright 2023 The Go Authors. All rights reserved.
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3320,7 +3365,15 @@ go.opentelemetry.io/otel/exporters/otlp/internal/retry
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (C) 2006 - 2019, The Apache Software Foundation
+Copyright (c) 2006- Facebook
+Copyright (c) 2006-2008 Alexander Chemeris
+Copyright (c) 2007 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2008- Patrick Collison <patrick@collison.ie>
+Copyright 2007 by Nathan C. Myers <ncm@cantrip.org>
+ some rights reserved.
+Copyright 2012 Twitter, Inc
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3342,7 +3395,15 @@ go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (C) 2006 - 2019, The Apache Software Foundation
+Copyright (c) 2006- Facebook
+Copyright (c) 2006-2008 Alexander Chemeris
+Copyright (c) 2007 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2008- Patrick Collison <patrick@collison.ie>
+Copyright 2007 by Nathan C. Myers <ncm@cantrip.org>
+ some rights reserved.
+Copyright 2012 Twitter, Inc
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3375,7 +3436,15 @@ go.opentelemetry.io/otel/trace
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright (C) 2006 - 2019, The Apache Software Foundation
+Copyright (c) 2006- Facebook
+Copyright (c) 2006-2008 Alexander Chemeris
+Copyright (c) 2007 Thomas Porschberg <thomas@randspringer.de>
+Copyright (c) 2008- Patrick Collison <patrick@collison.ie>
+Copyright 2007 by Nathan C. Myers <ncm@cantrip.org>
+ some rights reserved.
+Copyright 2012 Twitter, Inc
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
