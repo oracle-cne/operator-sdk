@@ -2389,6 +2389,29 @@ github.com/moby/sys/mountinfo
 SPDX:Apache-2.0
 
 == Copyright
+(no copyright notices found)
+
+--------------------------------- (separator) ----------------------------------
+
+== Dependency
+github.com/moby/term
+
+== License Type
+SPDX:Apache-2.0
+
+== Copyright
+Copyright 2013-2018 Docker, Inc.
+copyright 2015 Docker, inc. Code released under the Apache 2.0 license. Docs released under Creative commons.
+
+--------------------------------- (separator) ----------------------------------
+
+== Dependency
+github.com/modern-go/concurrent
+
+== License Type
+SPDX:Apache-2.0
+
+== Copyright
 Copyright 2014 Ahmet Alp Balkan ahmetb@microsoft.com
 Copyright 2014 Alexander Larsson alexl@redhat.com
 Copyright 2014 Alexander Morozov lk4d4@docker.com
@@ -2496,31 +2519,6 @@ Copyright 2022 Kir Kolyshkin kolyshkin@gmail.com
 Copyright 2022 Manu Gupta manugupt1@gmail.com
 Copyright 2022 Sebastiaan van Stijn github@gone.nl
 Copyright 2022 谢致邦 (XIE Zhibang) Yeking@Red54.com
-
---------------------------------- (separator) ----------------------------------
-
-== Dependency
-github.com/moby/term
-
-== License Type
-SPDX:Apache-2.0
-
-== Copyright
-Copyright 2013-2018 Docker, Inc.
-copyright 2015 Docker, inc. Code released under the Apache 2.0 license. Docs released under Creative commons.
-
---------------------------------- (separator) ----------------------------------
-
-== Dependency
-github.com/modern-go/concurrent
-
-== License Type
-SPDX:Apache-2.0
-
-== Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 kr1sten0 zhqy0807@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
