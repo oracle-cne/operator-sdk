@@ -514,8 +514,7 @@ github.com/distribution/reference
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -1630,14 +1629,8 @@ github.com/hashicorp/errwrap
 SPDX:MPL-2.0
 
 == Copyright
-Copyright 2014 Andrew Martin andrew.martin@lovestockleaf.com
-Copyright 2014 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2014 Mitchell Hashimoto xmitchx@gmail.com
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Matthew Leon ml@matthewleon.com
-Copyright 2018 Mitchell Hashimoto mitchell.hashimoto@gmail.com
-Copyright 2020 Daniel Nephin dnephin@gmail.com
-Copyright 2020 GitHub noreply@github.com
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
