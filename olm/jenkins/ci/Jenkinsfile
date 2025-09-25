@@ -1,4 +1,4 @@
-@Library('olcne-pipeline@feature/retry-push')
+@Library('pipeline-shared@feature/retry-push')
 import com.oracle.olcne.pipeline.BranchPattern
 
 olcnePipeline(
