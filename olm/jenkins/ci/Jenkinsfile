@@ -1,4 +1,4 @@
-@Library('olcne-pipeline')
+@Library('olcne-pipeline@feature/go-select') _
 import com.oracle.olcne.pipeline.BranchPattern
 
 olcnePipeline(
